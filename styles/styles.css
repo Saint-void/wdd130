@@ -1,5 +1,11 @@
+:root {
+    --nav-col: white;
+    --h1-col: blue;
+    --main-max: 840px;
+}
+
 main {
-    max-width:  840px;
+    max-width: var(--main-max);
 }
 
 nav {
@@ -8,13 +14,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--nav-col);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: blue;
+    color: var(--h1-col);
 }
 
 main img {
