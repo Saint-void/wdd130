@@ -1,8 +1,8 @@
 :root{
-    --primary-color:  #009FFD;
-    --secondary-color:  #1565B8;
-    --accent1-color:  #2a2a72;
-    --accent2-color:  #EAF6FF;
+    --primary-color: #009FFD;
+    --secondary-color: #1565B8;
+    --accent1-color:#2a2a72;
+    --accent2-color:#EAF6FF;
     --heading-font: 'Montserrat';
     --body-font: 'Roboto';
 }
@@ -53,7 +53,7 @@ nav, p, section, article{
 }
 
 h1 {
-    position: adsolute;
+    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
