@@ -10,6 +10,9 @@
 header{
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
 *{
@@ -28,18 +31,68 @@ header, main, footer {
     margin: 0 auto;
 }
 
+
 h1, h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article{
+h2{
+    text-align: center;
+}
+
+section img{
+    max-height: 150px;
+    max-width: 150px;
+}
+section .img{
+    display: flex;
+    flex-direction: center;
+    gap: 20px;
+
+}
+
+figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.img {
+    display: flex;
+    flex-direction: center;
+    gap: 20px;
+}
+
+ p, section, article{
     margin: 16px;
     padding: 8px;
 }
 
-.socialmedia a {
+nav {
+    margin: 16px;
+    padding: 8px;
+     display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero article {
+    position: absolute;
+    box-shadow:10px 0 10px black;
+}
+
+.socialmedia {
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.socialmedia img{
+    height: 45px;
+    width: 45px;
 }
 
 .hero {
@@ -66,4 +119,16 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.hero article {
+    position: absolute;
+    box-shadow:10px 0 10px black;
+    top: 200px;
 }
