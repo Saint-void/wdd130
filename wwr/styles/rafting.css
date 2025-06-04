@@ -47,7 +47,7 @@ section img{
 }
 section .img{
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     gap: 20px;
 
 }
@@ -60,7 +60,7 @@ figcaption {
 
 .img {
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     gap: 20px;
 }
 
