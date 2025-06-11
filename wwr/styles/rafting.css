@@ -1,10 +1,10 @@
-:root{
-    --primary-color: #009FFD;
-    --secondary-color: #1565B8;
-    --accent1-color:#2a2a72;
-    --accent2-color:#EAF6FF;
-    --heading-font: 'Montserrat';
-    --body-font: 'Roboto';
+:root {
+  --primary-color: #002244;       /* Dark navy for stronger contrast */
+  --secondary-color: #1565B8;     /* Leave as-is or darken slightly */
+  --accent1-color: #2a2a72;
+  --accent2-color: #f2f9ff;       /* Slightly darker than #EAF6FF */
+  --heading-font: 'Montserrat', sans-serif;
+  --body-font: 'Roboto', sans-serif;
 }
 
 header{
@@ -76,6 +76,11 @@ nav {
     justify-content: flex-end;
     gap: 20px;
     list-style: none;
+}
+
+nav a{
+text-decoration: none;
+color: white;
 }
 
 .hero article {
